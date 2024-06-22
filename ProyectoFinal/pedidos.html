@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos - Bacanal de Sabores</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+
+            <img src="images/bacanalogo.png" alt="bacanalogo">
+
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="menu.html">Menú</a></li>
+                <li><a href="pedidos.html">Pedidos</a></li>
+                <li><a href="sobre_nosotros.html">Sobre Nosotros</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="user-actions">
+            <a href="#">Carrito</a>
+            <a href="#">Cuenta</a>
+        </div>
+    </header>
+    <main>
+        <section class="orders">
+            <h1>Realiza tu Pedido</h1>
+            <form>
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name">
+                <label for="address">Dirección de Entrega:</label>
+                <input type="text" id="address" name="address">
+                <label for="time">Horario Preferido:</label>
+                <input type="text" id="time" name="time">
+                <label for="payment">Método de Pago:</label>
+                <select id="payment" name="payment">
+                    <option value="credit_card">Tarjeta de Crédito</option>
+                    <option value="paypal">PayPal</option>
+                    <option value="cash">Efectivo</option>
+                </select>
+                <input type="submit" value="Realizar Pedido">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="contact-info">
+            <p>Contacto: info@bacanalsabores.com</p>
+            <p>Síguenos en redes sociales</p>
+        </div>
+        <div class="social-media">
+            <!-- Añadir íconos de redes sociales aquí -->
+        </div>
+    </footer>
+</body>
+</html>
